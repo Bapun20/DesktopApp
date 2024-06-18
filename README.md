@@ -23,14 +23,46 @@ This is a Windows Forms Application that replicates the functionality of Google 
 
 ## Usage
 
-- **Create New Submission**:
-  - Fill in the details and click the "Submit" button or press `Ctrl + S` to submit.
-  - Use the "Toggle Stopwatch" button or press `Ctrl + T` to start/pause the stopwatch.
+### Form1 - Main Form
 
-- **View Submissions**:
-  - Use the "Previous" button or press `Ctrl + P` to view the previous submission.
-  - Use the "Next" button or press `Ctrl + N` to view the next submission.
-  - Use the "Delete" button or press `Ctrl + D` to delete the current submission.
+- **Overview**: The main form with two buttons - "View Submissions" and "Create New Submission".
+- **Actions**:
+  - **View Submissions**: Opens the View Submissions form.
+    - Button: Click the "View Submissions" button.
+    - Keyboard Shortcut: Press `Ctrl + V` to open the View Submissions form.
+  - **Create New Submission**: Opens the Create Submission form.
+    - Button: Click the "Create New Submission" button.
+    - Keyboard Shortcut: Press `Ctrl + N` to open the Create Submission form.
+
+### Create New Submission
+
+- **Overview**: Allows users to create new submissions.
+- **Fields**:
+  - Name
+  - Email
+  - Phone Number
+  - GitHub Repo Link
+- **Actions**:
+  - **Submit**: Submits the form data to the backend server.
+    - Button: Click the "Submit" button.
+    - Keyboard Shortcut: Press `Ctrl + S` to submit the form.
+  - **Toggle Stopwatch**: Starts or pauses the stopwatch without resetting.
+    - Button: Click the "Toggle Stopwatch" button.
+    - Keyboard Shortcut: Press `Ctrl + T` to start/pause the stopwatch.
+
+### View Submissions
+
+- **Overview**: Allows users to view previously submitted forms.
+- **Actions**:
+  - **Previous**: Navigates to the previous submission.
+    - Button: Click the "Previous" button.
+    - Keyboard Shortcut: Press `Ctrl + P` to view the previous submission.
+  - **Next**: Navigates to the next submission.
+    - Button: Click the "Next" button.
+    - Keyboard Shortcut: Press `Ctrl + N` to view the next submission.
+  - **Delete**: Deletes the current submission.
+    - Button: Click the "Delete" button.
+    - Keyboard Shortcut: Press `Ctrl + D` to delete the current submission.
 
 ## Contributing
 
